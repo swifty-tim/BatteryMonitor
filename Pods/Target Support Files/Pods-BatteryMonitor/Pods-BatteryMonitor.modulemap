@@ -1,0 +1,6 @@
+framework module Pods_BatteryMonitor {
+  umbrella header "Pods-BatteryMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,713 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0708A68FD57ED127700B1EB8301A9C05 /* Bluetonium-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F9E4E3BF88E79F34582372B7C99F149A /* Bluetonium-dummy.m */; };
+		1A455B226A4F938FBD6DE18D8D3E29BC /* DataTransformers.swift in Sources */ = {isa = PBXBuildFile; fileRef = D38F94900798B0C66244A47BD245F6D0 /* DataTransformers.swift */; };
+		22CF4CBF4AF7900C5A81271E123CE1A9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		234E9501029D734CBE21E851CC0BE5F3 /* Pods-BatteryMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D9D27E1862A82B6B095F16A8F0C91725 /* Pods-BatteryMonitor-dummy.m */; };
+		3CF89140FC70558EBA2D66A68311A3F7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		47D7483FE8F4092D1892336D82891A6B /* Pods-BatteryMonitorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A0F55461934006D3823FDD36A30570E /* Pods-BatteryMonitorUITests-dummy.m */; };
+		54A41B5E2E142B3D6DECC3A4FBEFA3C1 /* Map.swift in Sources */ = {isa = PBXBuildFile; fileRef = B3C871F51A8AF078D4FD1B78F93FBAF5 /* Map.swift */; };
+		66DFD660444B80F9D489B96E8AE1BB3A /* Pods-BatteryMonitorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A47E5EC1461E2B4C8D358DCA085CAD2 /* Pods-BatteryMonitorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A35E5D93F7E4EB3989D332E2B149CA2 /* Device.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B0199669303B9683925B17D42B7BDFD /* Device.swift */; };
+		8F8D2490D625C4E84323D8F4DF0D9621 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A22CF9F416B3D7393351C15D918A51F /* Manager.swift */; };
+		985597DE2489A35AA4F0175BE6EB1EBD /* Pods-BatteryMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE8013F2DDF4BF1BF57BBF69CA08512 /* Pods-BatteryMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A264272540CA989D31E004E40650C829 /* ManagerDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC38BCC4BF2F83DDC3F033A2B985833F /* ManagerDelegate.swift */; };
+		B1DD300AFCB02907933DE977DF911A52 /* ServiceModelManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 724E5DDEF9237B24E6BBECB98360CE46 /* ServiceModelManager.swift */; };
+		C11CD205B60EDB001252ECC3EF7DA8BE /* Bluetonium-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C0669E9D03E3B7BEC23F594A25A30DA9 /* Bluetonium-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C7F1D28A02DEE543B4CDE5323E6C9E53 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
+		CB99F910318657C2236992EDE4C4B65A /* ServiceModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73529CD671264AF5ACA8F841AAAF4197 /* ServiceModel.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		777226E9905571E1CD94C0CB8589CFBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4733469C89276A131EC9739ACF23E762;
+			remoteInfo = Bluetonium;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0453E2E14DE3D293A679091BCAD804F9 /* Pods-BatteryMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BatteryMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		0A22CF9F416B3D7393351C15D918A51F /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Managers/Manager.swift; sourceTree = "<group>"; };
+		0CC3FF3EEC17008EB06BF69A1A66B1DE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1937A69F127BE981D208D289E22B1614 /* Pods-BatteryMonitorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BatteryMonitorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		2B47064E65B6E67C50DA1526D05C4608 /* Pods-BatteryMonitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BatteryMonitor-frameworks.sh"; sourceTree = "<group>"; };
+		3042F69D51F400E13087EB3581833F8C /* Pods_BatteryMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BatteryMonitorUITests.framework; path = "Pods-BatteryMonitorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		36A30DF8268768F5606BA9AB64D68E46 /* Pods-BatteryMonitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-BatteryMonitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3A0F55461934006D3823FDD36A30570E /* Pods-BatteryMonitorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BatteryMonitorUITests-dummy.m"; sourceTree = "<group>"; };
+		3F805EF38121C3DA16AE4C55BC8F38BC /* Bluetonium.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Bluetonium.xcconfig; sourceTree = "<group>"; };
+		4B0199669303B9683925B17D42B7BDFD /* Device.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Device.swift; path = Source/Models/Device.swift; sourceTree = "<group>"; };
+		4DE8013F2DDF4BF1BF57BBF69CA08512 /* Pods-BatteryMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BatteryMonitor-umbrella.h"; sourceTree = "<group>"; };
+		56EDD80E6B4E1CC3F3B3273FAA41B042 /* Pods-BatteryMonitorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BatteryMonitorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		59B7BE01296B5B79EA82E85B1536A1A5 /* Pods-BatteryMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BatteryMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		5C489C055006D9DD6FF5E76D0879B56A /* Bluetonium-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bluetonium-prefix.pch"; sourceTree = "<group>"; };
+		68001BB5D11E948C364DD7AA3966A24F /* Pods-BatteryMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BatteryMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		68515500E3EE5438055979F1DAAE3487 /* Pods-BatteryMonitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BatteryMonitor-acknowledgements.plist"; sourceTree = "<group>"; };
+		68CC21F5295A08AB8AD3B6393C6DB0A8 /* Pods-BatteryMonitorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BatteryMonitorUITests.modulemap"; sourceTree = "<group>"; };
+		724E5DDEF9237B24E6BBECB98360CE46 /* ServiceModelManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceModelManager.swift; path = Source/Managers/ServiceModelManager.swift; sourceTree = "<group>"; };
+		73529CD671264AF5ACA8F841AAAF4197 /* ServiceModel.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServiceModel.swift; path = Source/Models/ServiceModel.swift; sourceTree = "<group>"; };
+		73BA6B7AB2A6B6FFAFCEDDC9CE6BE7F9 /* Pods-BatteryMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-BatteryMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		7A47E5EC1461E2B4C8D358DCA085CAD2 /* Pods-BatteryMonitorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-BatteryMonitorUITests-umbrella.h"; sourceTree = "<group>"; };
+		88A9E38675C33DA662AA9373F69CE90A /* Pods-BatteryMonitorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-BatteryMonitorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9711E74D935DDC6CEC70769EB6D88DA9 /* Pods_BatteryMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_BatteryMonitor.framework; path = "Pods-BatteryMonitor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9A00CF40FCDB7EDF3DFA2EC9E76C6488 /* Bluetonium.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = Bluetonium.modulemap; sourceTree = "<group>"; };
+		AE73A65C69274AD3C7A3F780A8DBA188 /* Pods-BatteryMonitorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BatteryMonitorUITests-resources.sh"; sourceTree = "<group>"; };
+		B3C871F51A8AF078D4FD1B78F93FBAF5 /* Map.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Map.swift; path = Source/Map.swift; sourceTree = "<group>"; };
+		C0669E9D03E3B7BEC23F594A25A30DA9 /* Bluetonium-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Bluetonium-umbrella.h"; sourceTree = "<group>"; };
+		C79E25D5FD5E132A59D21EA7ABF49B0F /* Bluetonium.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Bluetonium.framework; path = Bluetonium.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C9299E15A826152CB2C367A9F0493751 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D38F94900798B0C66244A47BD245F6D0 /* DataTransformers.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DataTransformers.swift; path = Source/DataTransformers.swift; sourceTree = "<group>"; };
+		D9D27E1862A82B6B095F16A8F0C91725 /* Pods-BatteryMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-BatteryMonitor-dummy.m"; sourceTree = "<group>"; };
+		DC38BCC4BF2F83DDC3F033A2B985833F /* ManagerDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ManagerDelegate.swift; path = Source/Managers/ManagerDelegate.swift; sourceTree = "<group>"; };
+		F8F96C8638631175643D5C3ABBF7C974 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9E4E3BF88E79F34582372B7C99F149A /* Bluetonium-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Bluetonium-dummy.m"; sourceTree = "<group>"; };
+		FA3846A0CBCAE77D7F9EA90E6C35C25F /* Pods-BatteryMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-BatteryMonitor.modulemap"; sourceTree = "<group>"; };
+		FCF123B98C6BAF4F8D86FACD518898F2 /* Pods-BatteryMonitor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-BatteryMonitor-resources.sh"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D7BFF1F68450292A8BD909596FD3A7D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C7F1D28A02DEE543B4CDE5323E6C9E53 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		54E784BE5505BBCD5532E76352952726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				22CF4CBF4AF7900C5A81271E123CE1A9 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EAC9E4CD4634ED4996D881D2DAA5BC1D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CF89140FC70558EBA2D66A68311A3F7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0E6A297186A0EB773326367F6813AFDA /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9A00CF40FCDB7EDF3DFA2EC9E76C6488 /* Bluetonium.modulemap */,
+				3F805EF38121C3DA16AE4C55BC8F38BC /* Bluetonium.xcconfig */,
+				F9E4E3BF88E79F34582372B7C99F149A /* Bluetonium-dummy.m */,
+				5C489C055006D9DD6FF5E76D0879B56A /* Bluetonium-prefix.pch */,
+				C0669E9D03E3B7BEC23F594A25A30DA9 /* Bluetonium-umbrella.h */,
+				F8F96C8638631175643D5C3ABBF7C974 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Bluetonium";
+			sourceTree = "<group>";
+		};
+		3A77661B5D491E7B86FFF9CB840C6986 /* Pods-BatteryMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				0CC3FF3EEC17008EB06BF69A1A66B1DE /* Info.plist */,
+				FA3846A0CBCAE77D7F9EA90E6C35C25F /* Pods-BatteryMonitor.modulemap */,
+				36A30DF8268768F5606BA9AB64D68E46 /* Pods-BatteryMonitor-acknowledgements.markdown */,
+				68515500E3EE5438055979F1DAAE3487 /* Pods-BatteryMonitor-acknowledgements.plist */,
+				D9D27E1862A82B6B095F16A8F0C91725 /* Pods-BatteryMonitor-dummy.m */,
+				2B47064E65B6E67C50DA1526D05C4608 /* Pods-BatteryMonitor-frameworks.sh */,
+				FCF123B98C6BAF4F8D86FACD518898F2 /* Pods-BatteryMonitor-resources.sh */,
+				4DE8013F2DDF4BF1BF57BBF69CA08512 /* Pods-BatteryMonitor-umbrella.h */,
+				68001BB5D11E948C364DD7AA3966A24F /* Pods-BatteryMonitor.debug.xcconfig */,
+				59B7BE01296B5B79EA82E85B1536A1A5 /* Pods-BatteryMonitor.release.xcconfig */,
+			);
+			name = "Pods-BatteryMonitor";
+			path = "Target Support Files/Pods-BatteryMonitor";
+			sourceTree = "<group>";
+		};
+		711CA7A95F29AC312AA86134BD04EE23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C79E25D5FD5E132A59D21EA7ABF49B0F /* Bluetonium.framework */,
+				9711E74D935DDC6CEC70769EB6D88DA9 /* Pods_BatteryMonitor.framework */,
+				3042F69D51F400E13087EB3581833F8C /* Pods_BatteryMonitorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				A240BFA51133B047B13CFFFD1D526D1D /* Pods */,
+				711CA7A95F29AC312AA86134BD04EE23 /* Products */,
+				D89CA30E9B1E212E0BA98C3A4F78323C /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A240BFA51133B047B13CFFFD1D526D1D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				ABF12024C1C0B8E159320E482A5DEF5C /* Bluetonium */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		ABF12024C1C0B8E159320E482A5DEF5C /* Bluetonium */ = {
+			isa = PBXGroup;
+			children = (
+				D38F94900798B0C66244A47BD245F6D0 /* DataTransformers.swift */,
+				4B0199669303B9683925B17D42B7BDFD /* Device.swift */,
+				0A22CF9F416B3D7393351C15D918A51F /* Manager.swift */,
+				DC38BCC4BF2F83DDC3F033A2B985833F /* ManagerDelegate.swift */,
+				B3C871F51A8AF078D4FD1B78F93FBAF5 /* Map.swift */,
+				73529CD671264AF5ACA8F841AAAF4197 /* ServiceModel.swift */,
+				724E5DDEF9237B24E6BBECB98360CE46 /* ServiceModelManager.swift */,
+				0E6A297186A0EB773326367F6813AFDA /* Support Files */,
+			);
+			name = Bluetonium;
+			path = Bluetonium;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7531C8F8DE19F1AA3C8A7AC97A91DC29 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C8E481E7CAB6060BEF9C6F7045A93B04 /* Pods-BatteryMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C9299E15A826152CB2C367A9F0493751 /* Info.plist */,
+				68CC21F5295A08AB8AD3B6393C6DB0A8 /* Pods-BatteryMonitorUITests.modulemap */,
+				1937A69F127BE981D208D289E22B1614 /* Pods-BatteryMonitorUITests-acknowledgements.markdown */,
+				88A9E38675C33DA662AA9373F69CE90A /* Pods-BatteryMonitorUITests-acknowledgements.plist */,
+				3A0F55461934006D3823FDD36A30570E /* Pods-BatteryMonitorUITests-dummy.m */,
+				56EDD80E6B4E1CC3F3B3273FAA41B042 /* Pods-BatteryMonitorUITests-frameworks.sh */,
+				AE73A65C69274AD3C7A3F780A8DBA188 /* Pods-BatteryMonitorUITests-resources.sh */,
+				7A47E5EC1461E2B4C8D358DCA085CAD2 /* Pods-BatteryMonitorUITests-umbrella.h */,
+				0453E2E14DE3D293A679091BCAD804F9 /* Pods-BatteryMonitorUITests.debug.xcconfig */,
+				73BA6B7AB2A6B6FFAFCEDDC9CE6BE7F9 /* Pods-BatteryMonitorUITests.release.xcconfig */,
+			);
+			name = "Pods-BatteryMonitorUITests";
+			path = "Target Support Files/Pods-BatteryMonitorUITests";
+			sourceTree = "<group>";
+		};
+		D89CA30E9B1E212E0BA98C3A4F78323C /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3A77661B5D491E7B86FFF9CB840C6986 /* Pods-BatteryMonitor */,
+				C8E481E7CAB6060BEF9C6F7045A93B04 /* Pods-BatteryMonitorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		36FD853C0DCBC68F7B3695D791FB6C2F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				985597DE2489A35AA4F0175BE6EB1EBD /* Pods-BatteryMonitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5DC22E3768864870A64DA4C337B9C2E2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C11CD205B60EDB001252ECC3EF7DA8BE /* Bluetonium-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDD37490B8DC15022F4414F49F0543DF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66DFD660444B80F9D489B96E8AE1BB3A /* Pods-BatteryMonitorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		4733469C89276A131EC9739ACF23E762 /* Bluetonium */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 73E53945821611C12D0999B89EB768EB /* Build configuration list for PBXNativeTarget "Bluetonium" */;
+			buildPhases = (
+				CD76EDA81D80D3A4735D0A8A620D7050 /* Sources */,
+				4D7BFF1F68450292A8BD909596FD3A7D /* Frameworks */,
+				5DC22E3768864870A64DA4C337B9C2E2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bluetonium;
+			productName = Bluetonium;
+			productReference = C79E25D5FD5E132A59D21EA7ABF49B0F /* Bluetonium.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6FC1BD3CA7BB89064CB30243545B7541 /* Pods-BatteryMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5361914A35A1A67BE545C4DAF1D71A1A /* Build configuration list for PBXNativeTarget "Pods-BatteryMonitor" */;
+			buildPhases = (
+				4A42A0366E65B7391672284795E3A05E /* Sources */,
+				EAC9E4CD4634ED4996D881D2DAA5BC1D /* Frameworks */,
+				36FD853C0DCBC68F7B3695D791FB6C2F /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0CC9489A719C80CAEAE83296FB34D545 /* PBXTargetDependency */,
+			);
+			name = "Pods-BatteryMonitor";
+			productName = "Pods-BatteryMonitor";
+			productReference = 9711E74D935DDC6CEC70769EB6D88DA9 /* Pods_BatteryMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		87434492A39F9AB4DC6CDF701C75356B /* Pods-BatteryMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7C25A226C8E30039B92128F702F82765 /* Build configuration list for PBXNativeTarget "Pods-BatteryMonitorUITests" */;
+			buildPhases = (
+				854A240D61CAAE0D791726DD68BB1D6F /* Sources */,
+				54E784BE5505BBCD5532E76352952726 /* Frameworks */,
+				BDD37490B8DC15022F4414F49F0543DF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-BatteryMonitorUITests";
+			productName = "Pods-BatteryMonitorUITests";
+			productReference = 3042F69D51F400E13087EB3581833F8C /* Pods_BatteryMonitorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 711CA7A95F29AC312AA86134BD04EE23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4733469C89276A131EC9739ACF23E762 /* Bluetonium */,
+				6FC1BD3CA7BB89064CB30243545B7541 /* Pods-BatteryMonitor */,
+				87434492A39F9AB4DC6CDF701C75356B /* Pods-BatteryMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4A42A0366E65B7391672284795E3A05E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				234E9501029D734CBE21E851CC0BE5F3 /* Pods-BatteryMonitor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		854A240D61CAAE0D791726DD68BB1D6F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				47D7483FE8F4092D1892336D82891A6B /* Pods-BatteryMonitorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD76EDA81D80D3A4735D0A8A620D7050 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0708A68FD57ED127700B1EB8301A9C05 /* Bluetonium-dummy.m in Sources */,
+				1A455B226A4F938FBD6DE18D8D3E29BC /* DataTransformers.swift in Sources */,
+				8A35E5D93F7E4EB3989D332E2B149CA2 /* Device.swift in Sources */,
+				8F8D2490D625C4E84323D8F4DF0D9621 /* Manager.swift in Sources */,
+				A264272540CA989D31E004E40650C829 /* ManagerDelegate.swift in Sources */,
+				54A41B5E2E142B3D6DECC3A4FBEFA3C1 /* Map.swift in Sources */,
+				CB99F910318657C2236992EDE4C4B65A /* ServiceModel.swift in Sources */,
+				B1DD300AFCB02907933DE977DF911A52 /* ServiceModelManager.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0CC9489A719C80CAEAE83296FB34D545 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Bluetonium;
+			target = 4733469C89276A131EC9739ACF23E762 /* Bluetonium */;
+			targetProxy = 777226E9905571E1CD94C0CB8589CFBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		056606FCD454AEED1C91850824BB0CA3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 68001BB5D11E948C364DD7AA3966A24F /* Pods-BatteryMonitor.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BatteryMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BatteryMonitor/Pods-BatteryMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BatteryMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		156284431C64CB05C59BDA0595A1E95A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		76B59804EB7ECFDDEF25E822B25322F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F805EF38121C3DA16AE4C55BC8F38BC /* Bluetonium.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bluetonium/Bluetonium-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bluetonium/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bluetonium/Bluetonium.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Bluetonium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B5F9BBE824F1EBD52ECCEE9FC251734A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73BA6B7AB2A6B6FFAFCEDDC9CE6BE7F9 /* Pods-BatteryMonitorUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BatteryMonitorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BatteryMonitorUITests/Pods-BatteryMonitorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BatteryMonitorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C382132BB6BF8CA1A911872A2062FD0D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		CFEA99282DD984752510196AC28311C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0453E2E14DE3D293A679091BCAD804F9 /* Pods-BatteryMonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BatteryMonitorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BatteryMonitorUITests/Pods-BatteryMonitorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BatteryMonitorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D858ADE1746F8724980EC8E3BF4E363C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F805EF38121C3DA16AE4C55BC8F38BC /* Bluetonium.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Bluetonium/Bluetonium-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Bluetonium/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Bluetonium/Bluetonium.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Bluetonium;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E3657637AE7EE168DC9F081CE1E8E08D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 59B7BE01296B5B79EA82E85B1536A1A5 /* Pods-BatteryMonitor.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-BatteryMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-BatteryMonitor/Pods-BatteryMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_BatteryMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C382132BB6BF8CA1A911872A2062FD0D /* Debug */,
+				156284431C64CB05C59BDA0595A1E95A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5361914A35A1A67BE545C4DAF1D71A1A /* Build configuration list for PBXNativeTarget "Pods-BatteryMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				056606FCD454AEED1C91850824BB0CA3 /* Debug */,
+				E3657637AE7EE168DC9F081CE1E8E08D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		73E53945821611C12D0999B89EB768EB /* Build configuration list for PBXNativeTarget "Bluetonium" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				76B59804EB7ECFDDEF25E822B25322F3 /* Debug */,
+				D858ADE1746F8724980EC8E3BF4E363C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7C25A226C8E30039B92128F702F82765 /* Build configuration list for PBXNativeTarget "Pods-BatteryMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFEA99282DD984752510196AC28311C5 /* Debug */,
+				B5F9BBE824F1EBD52ECCEE9FC251734A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

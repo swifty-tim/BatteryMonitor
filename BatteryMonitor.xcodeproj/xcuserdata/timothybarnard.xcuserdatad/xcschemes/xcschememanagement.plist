@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>SchemeUserState</key>
+	<dict>
+		<key>Battery Monitor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>4</integer>
+		</dict>
+		<key>BatteryMonitor.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>0</integer>
+		</dict>
+		<key>BatteryMonitorWatch (Notification).xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>6</integer>
+		</dict>
+		<key>BatteryMonitorWatch.xcscheme</key>
+		<dict>
+			<key>orderHint</key>
+			<integer>5</integer>
+		</dict>
+	</dict>
+	<key>SuppressBuildableAutocreation</key>
+	<dict>
+		<key>152327011EDB1D9000EF08C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>152327151EDB1D9000EF08C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>1523272D1EDB6BC000EF08C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>152327401EDB6BE600EF08C7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+	</dict>
+</dict>
+</plist>
